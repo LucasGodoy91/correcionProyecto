@@ -1,0 +1,152 @@
+* {
+    font-family:  'Kanit', sans-serif;;
+}
+
+/*     ESTILOS DEL HEADER          */
+
+
+ /* animacion del logo */
+.logo {
+    animation-name: escalar;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    transform: scale();
+}
+
+@keyframes escalar { 
+    from {
+        transform: scale(1.0);
+    }
+    
+    to {
+        transform: scale(1.4);
+    }
+
+}
+
+
+
+/*   FIN DE ESTILOS DEL HEADER        */
+
+
+
+
+/* ESTILOS DEL MENU  DE NAVEGACION */
+
+nav ul li {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+
+}
+
+.subMenu li { 
+    text-align:left;
+    color: black;
+    display: none;
+    
+}
+
+
+
+/*  FIN DE ESTILOS DEL MENU DE NAVEGACION */
+
+
+/*        ESTILOPS DEL MAIN              */
+
+ .intro {
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.envio { 
+    padding-bottom: 70px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shipping {
+    width: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+/*    FIN DE ESTILOS DEL MAIN      */
+
+/*     ESTILOS DEL FOOTER    */
+
+footer {
+    padding-top: 70px;
+    background-color:black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .containerFooter { text-align: center;
+}
+
+.linkIg {
+    
+    text-decoration: none;
+    text-align: center;
+    color: white;
+
+}
+
+.logoIg {
+    width: 50px;
+}
+
+
+
+/*   FIN DE ESTILOS DEL FOOTER*/
+
+
+
+/*     ESTILOS DE NOSOTROS HTML      */
+
+
+.parrafoNosotros {
+    padding-top: 40px;
+    font-size: 20px;
+}
+
+/*   FIN DE ESTILOS DE NOSOTROS HTML   */
+
+
+/*   ESTILOS DE CONTACTO HTML          */
+
+.titulo {
+    padding-top: 50px;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* FIN DE ESTILOS DE CONTACTO HTML    */
+
+/*   ESTILOS DE UBICACION HTML          */
+
+.mapa {  
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.direccion {
+    padding-top: 100px;
+    font-size: 30px;
+}
+
